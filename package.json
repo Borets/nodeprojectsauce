@@ -1,0 +1,41 @@
+{
+  "name": "Test_for_spec",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/yaroslav/Test_for_spec",
+  "author": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yaroslav/Test_for_spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yaroslav/Test_for_spec/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/yaroslav/Test_for_spec/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/Test_for_spec",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-env": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-simple-mocha": "latest",
+    "grunt-concurrent": "latest",
+    "grunt-contrib-watch": "latest",
+    "wd": "latest",
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "lodash": "~2.4.1",
+    "colors": "latest",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
