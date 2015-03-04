@@ -27,7 +27,7 @@ wd.configureHttp( {
 
 var desired = JSON.parse(process.env.DESIRED || '{browserName: "firefox"}');
 desired.name = 'Example with ' + desired.browserName;
-desired.tags = ['My First Test'];
+desired.tags = ['Test via Travis'];
 
 describe('Test_for_spec (' + desired.browserName + ')', function() {
     var browser;
